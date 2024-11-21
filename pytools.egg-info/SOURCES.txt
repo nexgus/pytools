@@ -1,9 +1,0 @@
-README.md
-setup.py
-pytools/__init__.py
-pytools/_print.py
-pytools/version.py
-pytools.egg-info/PKG-INFO
-pytools.egg-info/SOURCES.txt
-pytools.egg-info/dependency_links.txt
-pytools.egg-info/top_level.txt
