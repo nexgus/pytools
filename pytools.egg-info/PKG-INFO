@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pytools
+Version: 0.1.0
+Summary: Useful Python tools
+Maintainer: Augustus Chen
+Maintainer-email: augustuschen@nexcom.com.tw
+License: License :: OSI Approved :: MIT License
+Platform: Operating System :: MacOS
+Platform: Operating System :: Microsoft :: Windows
+Platform: Operating System :: POSIX :: Linux
