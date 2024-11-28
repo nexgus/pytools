@@ -13,7 +13,12 @@ def printdir(obj: Any) -> None:
                 print(', '.join(attrs))
                 attrs = []
             prefix = x0
-        attrs.append(x)
+
+        if isinstance(getattr(obj, x), property):
+            attrs.append(x)
+        else:
+            # This should be a method.
+            attrs.append(f'[{x}]')
 
 
 if __name__ == '__main__':
